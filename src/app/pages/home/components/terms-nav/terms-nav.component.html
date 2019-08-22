@@ -1,0 +1,20 @@
+<div class="row d-none d-sm-block d-md-block d-xl-block text-center w-100">
+  <ul>
+    <li><a class="{{activePrivacy}}" routerLink="/privacy">Privacy</a></li>
+    <li><a class="{{activeTerms}}" routerLink="/values">Terms</a></li>
+    <li><a class="{{activeCookies}}" routerLink="/cookies">Cookies</a></li>
+  </ul>
+</div>
+<div
+  class="row d-inline-block d-sm-none d-md-none d-xl-none text-center w-100 horizontal-padding small-screen-link pb-3 pt-3"
+>
+  <div class="col-4 d-inline-block {{activePrivacy}}">
+    <a class="" routerLink="/privacy">Privacy</a>
+  </div>
+  <div class="col-4 d-inline-block {{activeTerms}}">
+    <a class="" routerLink="/values">Terms</a>
+  </div>
+  <div class="col-4 d-inline-block {{activeCookies}}">
+    <a class="" routerLink="/cookies">Cookies</a>
+  </div>
+</div>
