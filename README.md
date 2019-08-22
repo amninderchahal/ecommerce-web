@@ -20,6 +20,7 @@ $ ng serve
 # production build
 $ ng build --prod
 ```
+Note: This application needs ecommerce-api running
 ## Test
 
 ```bash
